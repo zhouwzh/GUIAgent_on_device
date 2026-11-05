@@ -1,0 +1,22 @@
+{
+  "checked_date": "2026-11-03",
+  "model_repository": "google/gemma-4-E4B-it-qat-q4_0-gguf",
+  "model_revision": "4b4a2c1d584be7264f87aac328a1bc739ce81b6c",
+  "model_file": "gemma-4-E4B_q4_0-it.gguf",
+  "termux_release": "v0.118.3",
+  "llama_cpp_revision": "749db7f034d43d6de01a01f6d8c872d02afa6c7b",
+  "androidworld_revision": "55ddaf5edc6f6c25673aed343907d5b9dca66f84",
+  "android_env": "1.2.3",
+  "python": "3.11.8",
+  "model_execution": "physical Android phone, Termux, CPU",
+  "gui_execution": "Windows Pixel 6 API33 Google APIs x86_64 AVD",
+  "agent": "AndroidWorld T3A, text UI tree",
+  "validation": {
+    "powershell_syntax": "passed",
+    "shell_syntax": "passed",
+    "python_syntax": "passed",
+    "model_endpoint_mock": "passed",
+    "acceptance_success_failure_exception_cases": "passed",
+    "phone_and_emulator_end_to_end": "not run"
+  }
+}
